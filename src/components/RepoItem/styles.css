@@ -1,0 +1,31 @@
+.repo-item {
+  background: #F4F4F2;
+  height: 9rem;
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  align-items: center;
+
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.repo-item-avatar {
+  margin-right: 1rem;
+}
+
+.repo-item-avatar img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
+
+.repo-item-content h1{
+  font-size: 2.4rem;
+}
+
+.repo-item-content p{
+  font-size: 1.8rem;
+}

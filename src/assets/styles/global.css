@@ -1,0 +1,36 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100vh;
+}
+
+body {
+  background: #fff; 
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body,
+input,
+button {
+  font: 500 1.6rem Roboto;
+  color: #393E41;
+}
+
+.container {
+  width: 90vw;
+  height: 90vh;
+  max-width: 600px;
+}
