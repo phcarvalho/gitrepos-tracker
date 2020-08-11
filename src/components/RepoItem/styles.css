@@ -9,23 +9,49 @@
   align-items: center;
 
   padding: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 1.6rem;
 }
 
-.repo-item-avatar {
-  margin-right: 1rem;
-}
-
-.repo-item-avatar img {
-  width: 6rem;
-  height: 6rem;
+.repo-item img {
+  width: 7rem;
+  height: 7rem;
   border-radius: 50%;
+  margin-right: 1.6rem;
 }
 
-.repo-item-content h1{
+.repo-item .repo-item-content {
+  flex: 1;
+}
+
+.repo-item .repo-item-content h1{
   font-size: 2.4rem;
+  color: #44BBA4;
 }
 
-.repo-item-content p{
+.repo-item .repo-item-content p{
   font-size: 1.8rem;
+}
+
+.repo-item .repo-item-content p span {
+  font-size: 1.4rem;
+  margin-left: 1rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+.repo-item .repo-item-content p span svg {
+  margin-right: 0.5rem;
+}
+
+.repo-item .repo-item-issues {
+  display: flex;
+  align-items: center;
+}
+
+.repo-item .repo-item-issues svg:first-child {
+  margin-right: 0.5rem;
+}
+
+.repo-item .repo-item-issues p {
+  margin-right: 1.5rem;
 }

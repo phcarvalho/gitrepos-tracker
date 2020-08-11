@@ -1,23 +1,46 @@
 import React from 'react';
+import { FaStar, FaRegStar } from 'react-icons/fa'
+import { MdError } from 'react-icons/md'
 
 import './styles.css'
 
-interface RepoItemProps {
-  userName: string;
-  repoName: string;
-  avatarURL: string;
-  repoURL: string;
+export interface Repo {
+  id: number;
+  name: string;
+  full_name: string;
+  owner: {
+    login: string;
+    avatar_url: string;
+  }
+  stargazers_count: number;
+  open_issues: number;
 }
 
-const RepoItem: React.FC<RepoItemProps> = ({ userName, repoName, avatarURL, repoURL }) => {
+interface RepoItemProps {
+  repo: Repo
+}
+
+const RepoItem: React.FC<RepoItemProps> = ({ repo }) => {
   return (
     <article className="repo-item">
-      <div className="repo-item-avatar">
-        <img src={avatarURL} alt={userName}/>
-      </div>
+      <img src={repo.owner.avatar_url} alt={repo.full_name}/>
       <div className="repo-item-content">
-        <h1>{userName}</h1>
-        <p>{repoName}</p>
+        <h1>{repo.owner.login}</h1>
+        <p>{repo.name} 
+          <span>
+            { repo.stargazers_count ? (
+              <FaStar color="E94F37" size={16} />
+            ) : (
+              <FaRegStar size={16} />
+            )} {repo.stargazers_count}
+          </span>
+        </p>
+      </div>
+      <div className="repo-item-issues">
+        <MdError size={24} />
+        <p>
+          {repo.open_issues} issues
+        </p>
       </div>
     </article>
   )

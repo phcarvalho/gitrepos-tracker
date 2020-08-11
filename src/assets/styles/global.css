@@ -13,7 +13,7 @@ html, body, #root {
 }
 
 body {
-  background: #fff; 
+  background: #E5E5E5; 
 }
 
 #root {
@@ -30,7 +30,6 @@ button {
 }
 
 .container {
-  width: 90vw;
-  height: 90vh;
-  max-width: 600px;
+  width: 100vw;
+  height: 100vh;
 }
