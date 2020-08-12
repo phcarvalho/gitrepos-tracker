@@ -1,0 +1,58 @@
+#page-repo header {
+  height: 25rem;
+  background: #44BBA4;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem;
+}
+
+#page-repo header .repo-navigation {
+  display: flex;
+  width: 95%;
+  align-items: center;
+  justify-content: space-between;
+}
+#page-repo header .repo-navigation a {
+  color: #393E41;
+  text-decoration: none;
+}
+
+#page-repo header .repo-title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#page-repo header .repo-title img {
+  width: 6.4rem;
+  height: 6.4rem;
+}
+
+#page-repo header #repo-description {
+  max-width: 40rem;
+  text-align: center;
+}
+
+#page-repo header .repo-details {
+  display: flex;
+  justify-content: space-between;
+  justify-self: flex-end;
+  max-width: 55rem;
+  width: 100%;
+}
+
+#page-repo header .repo-details .repo-stars,
+#page-repo header .repo-details .repo-issues {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+#page-repo header .repo-details svg {
+  margin-right: 0.5rem;
+}
