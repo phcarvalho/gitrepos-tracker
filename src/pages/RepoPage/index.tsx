@@ -54,10 +54,10 @@ const RepoPage = () => {
       .then((response) => {
         if(lastPage === 0) {
           const { link } = response.headers;
-
+          
           const lastPageLink = link.split(',').pop().split(';')[0];
-          const lastPageValue = lastPageLink.substr(lastPageLink.indexOf("=", lastPageLink.indexOf('page') + 6));
-          const lastPageNumber = Number(lastPageValue.substring(1, lastPageValue.indexOf('>')));
+          const lastPageValue = lastPageLink.substring(lastPageLink.indexOf("page=") + 5);
+          const lastPageNumber = Number(lastPageValue.substring(0, lastPageValue.indexOf('&')));
 
           setLastPage(lastPageNumber);
         }
