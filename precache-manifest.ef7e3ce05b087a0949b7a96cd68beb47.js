@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3490ab1f3e055063266cdd3599cd8764",
+    "revision": "ad88292d4d362ee75785a36c49973ba4",
     "url": "https://phcarvalho.github.io/gitrepos-tracker/index.html"
   },
   {
-    "revision": "ebe86a78e2513a9e7050",
+    "revision": "c4166f22c9181e31d9e6",
     "url": "https://phcarvalho.github.io/gitrepos-tracker/static/css/main.5bdd99f4.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://phcarvalho.github.io/gitrepos-tracker/static/js/2.199fecdf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ebe86a78e2513a9e7050",
-    "url": "https://phcarvalho.github.io/gitrepos-tracker/static/js/main.92ad8b12.chunk.js"
+    "revision": "c4166f22c9181e31d9e6",
+    "url": "https://phcarvalho.github.io/gitrepos-tracker/static/js/main.0f18d75a.chunk.js"
   },
   {
     "revision": "a2bef8c0867bc12d9f2b",
