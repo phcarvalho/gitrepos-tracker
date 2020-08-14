@@ -1,3 +1,8 @@
+#page-landing {
+  display: flex;
+  flex-direction: column;
+}
+
 #page-landing header {
   height: 25rem;
   background: #44BBA4;
@@ -40,8 +45,10 @@
 }
 
 #page-landing main {
+  flex: 1;
   padding: 1rem;
   padding-top: 0;
+  width: 100%;
   max-width: 60rem;
   margin: 0 auto;
 }

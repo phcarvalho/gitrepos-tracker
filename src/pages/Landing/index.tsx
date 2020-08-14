@@ -1,7 +1,9 @@
-import React, { useState, FormEvent } from 'react';
+import React, { useState, useContext, FormEvent } from 'react';
 import { FaGithubAlt, FaPlus } from 'react-icons/fa'
 
+import { RepoContext } from '../../components/RepoProvider';
 import RepoItem, { Repo } from '../../components/RepoItem';
+import Footer from '../../components/Footer';
 
 import api from '../../services/api';
 
@@ -9,7 +11,7 @@ import './styles.css';
 
 function Landing() {
   const [repoName, setRepoName] = useState('')
-  const [repos, setRepos] = useState([] as Array<Repo>)
+  const {repos, setRepos} = useContext(RepoContext);
 
   async function handleRepoSearch(e: FormEvent) {
     e.preventDefault();
@@ -25,7 +27,7 @@ function Landing() {
     else {
       const response = await api.get(`/repos/${repoName}`);
 
-      setRepos([...repos, response.data])
+      setRepos([...repos, response.data] as never[])
     }
 
   }
@@ -56,12 +58,13 @@ function Landing() {
         </form>
       </header>
       <main>
-        {repos ? repos.map((repo) => (
-          <RepoItem repo={repo} />
+        {repos ? repos.map((repo: Repo) => (
+          <RepoItem key={repo.full_name} repo={repo} />
         )) : (
           <h1>No repos found :(</h1>
         )}
       </main>
+      <Footer />
     </div>
   )
 }

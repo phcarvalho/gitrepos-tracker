@@ -1,0 +1,36 @@
+.footer {
+  background: #44BBA4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 1rem;
+  box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.25);
+  padding-bottom: 2rem;
+}
+
+.footer p {
+  font-size: 1.5rem;
+}
+
+.footer .social-container {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding-top: 1rem;
+}
+
+.footer .social-container a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: #fff;
+  color: #333;
+}
+
+.footer .social-container a + a {
+  margin-left: 2rem;
+}

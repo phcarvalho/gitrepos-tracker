@@ -1,3 +1,7 @@
+.repo-item-link {
+  text-decoration: none;
+}
+
 .repo-item {
   background: #F4F4F2;
   height: 9rem;
@@ -10,6 +14,7 @@
 
   padding: 1rem;
   margin-top: 1.6rem;
+  color: #393E41; 
 }
 
 .repo-item img {
@@ -36,7 +41,6 @@
   font-size: 1.4rem;
   margin-left: 1rem;
   display: inline-flex;
-  align-items: center;
 }
 
 .repo-item .repo-item-content p span svg {

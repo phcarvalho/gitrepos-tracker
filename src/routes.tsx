@@ -8,7 +8,7 @@ function Routes() {
   return (
     <BrowserRouter>
       <Route path="/" exact component={Landing} />
-      <Route path="/repos" exact component={RepoPage} />
+      <Route path="/repos/:owner/:name" component={RepoPage} />
     </BrowserRouter>
   );
 }

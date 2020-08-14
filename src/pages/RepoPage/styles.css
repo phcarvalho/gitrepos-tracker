@@ -1,5 +1,10 @@
+#page-repo {
+  display: flex;
+  flex-direction: column;
+}
+
 #page-repo header {
-  height: 25rem;
+  min-height: 25rem;
   background: #44BBA4;
   box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
 
@@ -22,6 +27,17 @@
   text-decoration: none;
 }
 
+#page-repo header .repo-secondary-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-repo header .repo-secondary-content h1 span {
+  color: #232323;
+}
+
 #page-repo header .repo-title {
   display: flex;
   align-items: center;
@@ -31,6 +47,7 @@
 #page-repo header .repo-title img {
   width: 6.4rem;
   height: 6.4rem;
+  border-radius: 50%;
 }
 
 #page-repo header #repo-description {
@@ -55,4 +72,13 @@
 
 #page-repo header .repo-details svg {
   margin-right: 0.5rem;
+}
+
+#page-repo main {
+  flex: 1;
+  padding: 1rem;
+  padding-top: 0;
+  width: 100%;
+  max-width: 60rem;
+  margin: 0 auto;
 }
