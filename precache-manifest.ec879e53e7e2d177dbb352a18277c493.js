@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8e10219d1a6ea5d2a5c81576273cd9f0",
+    "revision": "76464de1967ea9e5937258ad8f4a9d94",
     "url": "/phcarvalho/gitrepos-tracker/index.html"
   },
   {
-    "revision": "8902837b8d1485310d18",
+    "revision": "6f1284cfb8e7ce082fa3",
     "url": "/phcarvalho/gitrepos-tracker/static/css/main.5bdd99f4.chunk.css"
   },
   {
-    "revision": "00478d8f75859bfc8534",
-    "url": "/phcarvalho/gitrepos-tracker/static/js/2.e42366f6.chunk.js"
+    "revision": "74aa1b897d5b5fbc78c4",
+    "url": "/phcarvalho/gitrepos-tracker/static/js/2.668a028a.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/phcarvalho/gitrepos-tracker/static/js/2.e42366f6.chunk.js.LICENSE.txt"
+    "url": "/phcarvalho/gitrepos-tracker/static/js/2.668a028a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8902837b8d1485310d18",
-    "url": "/phcarvalho/gitrepos-tracker/static/js/main.cef508d9.chunk.js"
+    "revision": "6f1284cfb8e7ce082fa3",
+    "url": "/phcarvalho/gitrepos-tracker/static/js/main.59c67415.chunk.js"
   },
   {
     "revision": "e8eaf657b97573801853",

@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/phcarvalho/gitrepos-tracker/static/css/main.5bdd99f4.chunk.css",
-    "main.js": "/phcarvalho/gitrepos-tracker/static/js/main.cef508d9.chunk.js",
-    "main.js.map": "/phcarvalho/gitrepos-tracker/static/js/main.cef508d9.chunk.js.map",
+    "main.js": "/phcarvalho/gitrepos-tracker/static/js/main.59c67415.chunk.js",
+    "main.js.map": "/phcarvalho/gitrepos-tracker/static/js/main.59c67415.chunk.js.map",
     "runtime-main.js": "/phcarvalho/gitrepos-tracker/static/js/runtime-main.c776125d.js",
     "runtime-main.js.map": "/phcarvalho/gitrepos-tracker/static/js/runtime-main.c776125d.js.map",
-    "static/js/2.e42366f6.chunk.js": "/phcarvalho/gitrepos-tracker/static/js/2.e42366f6.chunk.js",
-    "static/js/2.e42366f6.chunk.js.map": "/phcarvalho/gitrepos-tracker/static/js/2.e42366f6.chunk.js.map",
+    "static/js/2.668a028a.chunk.js": "/phcarvalho/gitrepos-tracker/static/js/2.668a028a.chunk.js",
+    "static/js/2.668a028a.chunk.js.map": "/phcarvalho/gitrepos-tracker/static/js/2.668a028a.chunk.js.map",
     "index.html": "/phcarvalho/gitrepos-tracker/index.html",
-    "precache-manifest.cc74ede4fdaad1aeb0e21416719b3531.js": "/phcarvalho/gitrepos-tracker/precache-manifest.cc74ede4fdaad1aeb0e21416719b3531.js",
+    "precache-manifest.ec879e53e7e2d177dbb352a18277c493.js": "/phcarvalho/gitrepos-tracker/precache-manifest.ec879e53e7e2d177dbb352a18277c493.js",
     "service-worker.js": "/phcarvalho/gitrepos-tracker/service-worker.js",
     "static/css/main.5bdd99f4.chunk.css.map": "/phcarvalho/gitrepos-tracker/static/css/main.5bdd99f4.chunk.css.map",
-    "static/js/2.e42366f6.chunk.js.LICENSE.txt": "/phcarvalho/gitrepos-tracker/static/js/2.e42366f6.chunk.js.LICENSE.txt"
+    "static/js/2.668a028a.chunk.js.LICENSE.txt": "/phcarvalho/gitrepos-tracker/static/js/2.668a028a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c776125d.js",
-    "static/js/2.e42366f6.chunk.js",
+    "static/js/2.668a028a.chunk.js",
     "static/css/main.5bdd99f4.chunk.css",
-    "static/js/main.cef508d9.chunk.js"
+    "static/js/main.59c67415.chunk.js"
   ]
 }
