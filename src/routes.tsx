@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom'
+import { BrowserRouter,Switch, Route } from 'react-router-dom'
 
 import Landing from './pages/Landing';
 import RepoPage from './pages/RepoPage';
@@ -7,8 +7,10 @@ import RepoPage from './pages/RepoPage';
 function Routes() {
   return (
     <BrowserRouter>
-      <Route path="/" exact component={Landing} />
-      <Route path="/repos/:owner/:name" component={RepoPage} />
+      <Switch>
+        <Route path="/" exact component={Landing} />
+        <Route path="/repos/:owner/:name" component={RepoPage} />
+      </Switch>
     </BrowserRouter>
   );
 }
