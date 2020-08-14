@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "https://phcarvalho.github.io/gitrepos-tracker/static/css/main.5bdd99f4.chunk.css",
+    "main.css": "https://phcarvalho.github.io/gitrepos-tracker/static/css/main.ca6d8e08.chunk.css",
     "main.js": "https://phcarvalho.github.io/gitrepos-tracker/static/js/main.37cda50a.chunk.js",
     "main.js.map": "https://phcarvalho.github.io/gitrepos-tracker/static/js/main.37cda50a.chunk.js.map",
     "runtime-main.js": "https://phcarvalho.github.io/gitrepos-tracker/static/js/runtime-main.dd217896.js",
@@ -8,15 +8,15 @@
     "static/js/2.2e119adf.chunk.js": "https://phcarvalho.github.io/gitrepos-tracker/static/js/2.2e119adf.chunk.js",
     "static/js/2.2e119adf.chunk.js.map": "https://phcarvalho.github.io/gitrepos-tracker/static/js/2.2e119adf.chunk.js.map",
     "index.html": "https://phcarvalho.github.io/gitrepos-tracker/index.html",
-    "precache-manifest.05fb11dd0cefae51b13f0e837198a84f.js": "https://phcarvalho.github.io/gitrepos-tracker/precache-manifest.05fb11dd0cefae51b13f0e837198a84f.js",
+    "precache-manifest.ab566858cfc1e685d544035e82770464.js": "https://phcarvalho.github.io/gitrepos-tracker/precache-manifest.ab566858cfc1e685d544035e82770464.js",
     "service-worker.js": "https://phcarvalho.github.io/gitrepos-tracker/service-worker.js",
-    "static/css/main.5bdd99f4.chunk.css.map": "https://phcarvalho.github.io/gitrepos-tracker/static/css/main.5bdd99f4.chunk.css.map",
+    "static/css/main.ca6d8e08.chunk.css.map": "https://phcarvalho.github.io/gitrepos-tracker/static/css/main.ca6d8e08.chunk.css.map",
     "static/js/2.2e119adf.chunk.js.LICENSE.txt": "https://phcarvalho.github.io/gitrepos-tracker/static/js/2.2e119adf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.dd217896.js",
     "static/js/2.2e119adf.chunk.js",
-    "static/css/main.5bdd99f4.chunk.css",
+    "static/css/main.ca6d8e08.chunk.css",
     "static/js/main.37cda50a.chunk.js"
   ]
 }
