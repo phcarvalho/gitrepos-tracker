@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "https://phcarvalho.github.io/gitrepos-tracker/static/css/main.ca6d8e08.chunk.css",
-    "main.js": "https://phcarvalho.github.io/gitrepos-tracker/static/js/main.f3f0545d.chunk.js",
-    "main.js.map": "https://phcarvalho.github.io/gitrepos-tracker/static/js/main.f3f0545d.chunk.js.map",
+    "main.css": "https://phcarvalho.github.io/gitrepos-tracker/static/css/main.9af6ad4c.chunk.css",
+    "main.js": "https://phcarvalho.github.io/gitrepos-tracker/static/js/main.599bb4eb.chunk.js",
+    "main.js.map": "https://phcarvalho.github.io/gitrepos-tracker/static/js/main.599bb4eb.chunk.js.map",
     "runtime-main.js": "https://phcarvalho.github.io/gitrepos-tracker/static/js/runtime-main.dd217896.js",
     "runtime-main.js.map": "https://phcarvalho.github.io/gitrepos-tracker/static/js/runtime-main.dd217896.js.map",
     "static/js/2.2e119adf.chunk.js": "https://phcarvalho.github.io/gitrepos-tracker/static/js/2.2e119adf.chunk.js",
     "static/js/2.2e119adf.chunk.js.map": "https://phcarvalho.github.io/gitrepos-tracker/static/js/2.2e119adf.chunk.js.map",
     "index.html": "https://phcarvalho.github.io/gitrepos-tracker/index.html",
-    "precache-manifest.137f38577a31a97d40a29c1f4aeb5840.js": "https://phcarvalho.github.io/gitrepos-tracker/precache-manifest.137f38577a31a97d40a29c1f4aeb5840.js",
+    "precache-manifest.df670436626d336898f0579fad7f1096.js": "https://phcarvalho.github.io/gitrepos-tracker/precache-manifest.df670436626d336898f0579fad7f1096.js",
     "service-worker.js": "https://phcarvalho.github.io/gitrepos-tracker/service-worker.js",
-    "static/css/main.ca6d8e08.chunk.css.map": "https://phcarvalho.github.io/gitrepos-tracker/static/css/main.ca6d8e08.chunk.css.map",
+    "static/css/main.9af6ad4c.chunk.css.map": "https://phcarvalho.github.io/gitrepos-tracker/static/css/main.9af6ad4c.chunk.css.map",
     "static/js/2.2e119adf.chunk.js.LICENSE.txt": "https://phcarvalho.github.io/gitrepos-tracker/static/js/2.2e119adf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.dd217896.js",
     "static/js/2.2e119adf.chunk.js",
-    "static/css/main.ca6d8e08.chunk.css",
-    "static/js/main.f3f0545d.chunk.js"
+    "static/css/main.9af6ad4c.chunk.css",
+    "static/js/main.599bb4eb.chunk.js"
   ]
 }
