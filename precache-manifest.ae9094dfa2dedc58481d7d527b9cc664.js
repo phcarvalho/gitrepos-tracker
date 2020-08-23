@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cf642d30aab6acc0bf80cc87c3bc3aea",
+    "revision": "40587f8e4d32eae4050a4f259805c491",
     "url": "https://phcarvalho.github.io/gitrepos-tracker/index.html"
   },
   {
